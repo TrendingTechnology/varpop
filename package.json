@@ -1,8 +1,8 @@
 {
-  "name": "attila",
+  "name": "varpop",
   "description": "Ghost Theme",
   "demo": "http://attila.zutrinken.com",
-  "version": "1.4.1",
+  "version": "1.0.0",
   "engines": {
     "ghost": ">=1.0.0"
   },
