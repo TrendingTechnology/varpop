@@ -2,7 +2,7 @@
   "name": "varpop",
   "description": "Ghost Theme",
   "demo": "http://varpop.com",
-  "version": "0.5.5",
+  "version": "0.5.6",
   "engines": {
     "ghost": ">=1.0.0"
   },
