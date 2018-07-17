@@ -336,10 +336,12 @@ button, dl dt, h1, h2, h3, h4, h5, h6, input, ol > li:before, select, textarea, 
     box-sizing: border-box;
 }
 #main-button:focus, #main-button:hover, button:focus, button:hover, input[type=button]:focus, input[type=button]:hover, input[type=reset]:focus, input[type=reset]:hover, input[type=submit]:focus, input[type=submit]:hover {
-    color: #33adcc;
+    color: #fff;
     border-color: #33adcc;
     outline: 0;
+    background-color: #33adcc;
 }
+
 a {
     color: #212226;
     font-weight: 400;
