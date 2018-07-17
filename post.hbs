@@ -96,14 +96,18 @@
 				<a id="show-disqus" class="post-comments-activate">Show Comments</a>
 			    <div id="disqus_thread"></div>
 			</section>
-
-            {{#if @labs.subscribers}}
-            <section class="post-subscribe">
-                {{subscribe_form placeholder="Your email address" form_class="post-subscribe-form" input_class="post-subscribe-input" button_class="post-subscribe-button"}}
-                <p>Get the latest posts delivered right to your inbox.</p>
-            </section>
-            {{/if}}
-
+					<center style="padding:50px 0 50px 0;">
+            <h1 class="blog-name"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+						{{#if @blog.description}}
+						<span class="blog-description">{{@blog.description}}</span>
+						{{/if}}
+						{{#if @blog.cover_image}}
+						<div class="blog-cover cover" style="background-image: url('{{img_url @blog.cover_image}}');"></div>
+						{{/if}}
+						<form action="https://www.getdrip.com/forms/849303961/submissions/new" target="_blank">
+						<button id="main-button">Send Me Code Tips</button>
+						</form>
+					</center>
 			<aside class="post-nav">
 				{{#next_post}}
 					<a class="post-nav-next" href="{{url}}">
